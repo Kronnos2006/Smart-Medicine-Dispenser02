@@ -1,0 +1,5 @@
+{
+  "name": "Smart Medicine Dispenser - IoT",
+  "description": "Sistema inteligente de dispensación de medicamentos con monitoreo IoT, backend en Java y análisis de datos mediante IA (Gemini).",
+  "requestFramePermissions": []
+}
