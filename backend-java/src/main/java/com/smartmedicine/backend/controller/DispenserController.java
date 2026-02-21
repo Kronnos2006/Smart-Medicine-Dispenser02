@@ -24,6 +24,14 @@ public class DiagnosticController {
     private GeminiService geminiService;
 
     /**
+     * Verifica que el backend esté funcionando.
+     */
+    @GetMapping("/health")
+    public String healthCheck() {
+        return "Backend de Smart Medicine funcionando correctamente";
+    }
+
+    /**
      * Obtiene el historial completo de diagnósticos.
      */
     @GetMapping
